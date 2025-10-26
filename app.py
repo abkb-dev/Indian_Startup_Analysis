@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(layout='wide',page_title='Startup Analysis')
 # 2. Read the csv file into data frame
-df = pd.read_csv(r'C:\Users\Adnan khalid\PycharmProjects\Indian_Startups\startup_cleaned.csv')
+df = pd.read_csv('startup_cleaned.csv')
 # 3. Check The data frame on streamlit
 # st.dataframe(df)
 # converting type of date column from object to datetime64
@@ -190,6 +190,7 @@ if option is not None:
         oabtn = st.sidebar.button('Show Overall Analysis')
         if oabtn:
             load_overall_analysis()
+
 
 
 
