@@ -1,11 +1,14 @@
-# Indian_Startup_Analysis
 # Indian Startup Funding Analysis
+[![Click to Explore Dashboard](https://img.shields.io/badge/Click%20to%20Explore-Dashboard-red?style=for-the-badge)](https://indian-startups-analysis-app.streamlit.app/)
+
+
+
 
 A **Streamlit-based interactive dashboard** to analyze Indian startup funding trends, investor activities, and overall ecosystem growth. The project leverages **Python, Pandas, Matplotlib, and Streamlit** to provide insights from historical startup funding data.
 
 ---
 
-## Project Overview
+## 📖 Project Overview
 
 This project analyzes funding data of Indian startups, providing insights at three levels:  
 
@@ -17,7 +20,7 @@ The dashboard allows interactive exploration with dropdowns for investors and st
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Python** – Data processing and analysis.  
 - **Streamlit** – Interactive web dashboard.  
@@ -26,7 +29,7 @@ The dashboard allows interactive exploration with dropdowns for investors and st
 
 ---
 
-## Features
+## ✨ Features
 
 ### Investor Analysis
 - Select an investor from a dropdown.  
@@ -49,7 +52,7 @@ The dashboard allows interactive exploration with dropdowns for investors and st
 
 ---
 
-## Data Cleaning & Preprocessing
+## 🧹 Data Cleaning & Preprocessing
 
 1. **Loading Data**: Original dataset `startup_funding.csv`.  
 
